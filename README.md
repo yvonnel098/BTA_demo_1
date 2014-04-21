@@ -21,7 +21,7 @@ Splash screen->Navigational List View->Translation Detail Screen.
 At this point, all resources are hard coded and I only implemented one horizontal landscape.  Neither fragments
 activities have saved states.
 
-I used Android Studio version 0.5.4.  The project is compiled using Gradle.  Although the project is currently compiled with
-min SDK level of 11 and target SDK level of 19, I started off with min SDK level of 8.  As a result, MenuListFragment.java 
-is using the support library to address fragments.  I was having problem with the SDK manager not loading sdk level 11.  
-This should clear up with feature iterations.
+I used Android Studio version 0.5.4.  The project is compiled using Gradle.  Although the project is currently compiled with min SDK level of 11 and target SDK level of 19, I started off with min SDK level of 8.  As a result, MenuListFragment.java is using the v4 support library to address fragments.  I was having problem with the SDK manager not loading sdk level 11.  This should clear up with feature iterations.
+
+My testing device is Samsung Galaxy Tablet 7 Model number GT-P6210 running Android version 4.0.4.  I stopped using the
+emulator because it was too slow.  I may try https://www.manymo.com/ suggested by Jacob later.  
